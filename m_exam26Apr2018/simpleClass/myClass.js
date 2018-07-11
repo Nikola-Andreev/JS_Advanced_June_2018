@@ -75,7 +75,7 @@ console.log(man.toString());
 //man.arriveAtStop(4);
 
 // Should throw an Error at initialization
-const wrong = new LineManager([
-    { name: 'Stop', timeToNext: { wrong: 'Should be a number'} }
-]);
+// const wrong = new LineManager([
+//     { name: 'Stop', timeToNext: { wrong: 'Should be a number'} }
+// ]);
 

@@ -38,7 +38,6 @@ class PublicTransportTable {
 
             if (name || type) {
                 let rows = $('.vehicles-info > tr').not('.more-info')
-                console.log(rows)
                 for (let i = 0; i < rows.length; i++) {
                     let firstChild = $(rows[i]).find('td').eq(0)
                     let secondChild = $(rows[i]).find('td').eq(1)
